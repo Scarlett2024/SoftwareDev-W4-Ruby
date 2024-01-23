@@ -11,6 +11,11 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
+my_list = ["milk", "eggs", "bacon", "beer"]
+friend_list = ["beer", "cookies", "apples"]
+total_list = my_list + friend_list
+
+puts "buy: #{total_list.uniq.sort}"
 
 # HINTS
 # Learn to read the documentation!

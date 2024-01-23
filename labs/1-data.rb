@@ -15,3 +15,8 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+dice1 = rand(1..6)
+puts "First dice: #{dice1}"
+dice2 = rand(1..6)
+puts "Second dice: #{dice2}"
